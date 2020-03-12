@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7297306097049254561}
   - component: {fileID: 8379163386270589230}
   - component: {fileID: 5620062166117580655}
+  - component: {fileID: -2278772086262695794}
   m_Layer: 0
   m_Name: Troll
   m_TagString: Untagged
@@ -177,3 +178,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-2278772086262695794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5950583665118744795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611e39e357a9ad54b8443b36dd90f009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 14
+  damage: 3

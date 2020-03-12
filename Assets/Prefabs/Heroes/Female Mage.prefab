@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3592286182288381757}
   - component: {fileID: 8517244788984180973}
   - component: {fileID: 225621979673378968}
+  - component: {fileID: 625792251861652106}
   m_Layer: 0
   m_Name: Female Mage
   m_TagString: Untagged
@@ -177,3 +178,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &625792251861652106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5568466705634903109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611e39e357a9ad54b8443b36dd90f009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 8
+  damage: 7

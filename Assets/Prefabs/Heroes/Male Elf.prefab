@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6574468377192824888}
   - component: {fileID: 5201698743879777158}
   - component: {fileID: 1414763172501152272}
+  - component: {fileID: 4044004032571033808}
   m_Layer: 0
   m_Name: Male Elf
   m_TagString: Untagged
@@ -177,3 +178,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4044004032571033808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580648493410177696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611e39e357a9ad54b8443b36dd90f009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 8
+  damage: 5

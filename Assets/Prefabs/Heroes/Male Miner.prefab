@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3335620775341814748}
   - component: {fileID: 6113532587726956720}
   - component: {fileID: 2055546861399405349}
+  - component: {fileID: 5831932350958263344}
   m_Layer: 0
-  m_Name: Miner
+  m_Name: Male Miner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -177,3 +178,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5831932350958263344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5598062530242177870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611e39e357a9ad54b8443b36dd90f009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 8
+  damage: 4
